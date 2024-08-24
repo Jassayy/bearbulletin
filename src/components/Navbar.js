@@ -74,11 +74,11 @@ export class Navbar extends Component {
               <button
                 className="btn btn-outline-info"
                 type="button"
-                onClick={this.props.toggleMode} // Fix: Don't call the function here
+                onClick={this.props.toggleMode}
                 style={{ borderRadius: "50%", width: "40px", height: "40px" }}
               >
                 <i className="fa-regular fa-moon"></i>{" "}
-                {/* Fix: className instead of class */}
+              
               </button>
             </div>
           </div>
